@@ -41,7 +41,7 @@ class PramanaIdTest {
     void testEntityUrl() {
         UUID id = PramanaId.forNumber("1,1,0,1");
         String url = PramanaId.entityUrl(id);
-        assertTrue(url.startsWith("https://pramana-data.ca/entity/"));
+        assertTrue(url.startsWith("https://pramana.dev/entity/"));
     }
 
     @Test

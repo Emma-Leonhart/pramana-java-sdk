@@ -511,13 +511,13 @@ class GaussTest {
     @Test
     void testPramanaUrl() {
         String url = new Gauss(3, 2, 1, 4).pramanaUrl();
-        assertTrue(url.startsWith("https://pramana-data.ca/entity/pra:num:"));
+        assertTrue(url.startsWith("https://pramana.dev/entity/pra:num:"));
     }
 
     @Test
     void testPramanaHashUrl() {
         String url = new Gauss(3, 2, 1, 4).pramanaHashUrl();
-        assertTrue(url.startsWith("https://pramana-data.ca/entity/"));
+        assertTrue(url.startsWith("https://pramana.dev/entity/"));
     }
 
     // ── Static Constants ──

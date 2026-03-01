@@ -90,7 +90,7 @@ public final class Gint implements Comparable<Gint> {
     public String pramanaHashUrl() { return PramanaId.entityUrl(pramanaId()); }
 
     /** Pramana entity URL using pseudo-class string. */
-    public String pramanaUrl() { return "https://pramana-data.ca/entity/" + pramanaString(); }
+    public String pramanaUrl() { return "https://pramana.dev/entity/" + pramanaString(); }
 
     // ── Static Factory Methods ──
 

@@ -16,7 +16,7 @@ public final class PramanaId {
             UUID.fromString("a6613321-e9f6-4348-8f8b-29d2a3c86349");
 
     /** Base URL for Pramana entities. */
-    public static final String ENTITY_BASE_URL = "https://pramana-data.ca/entity/";
+    public static final String ENTITY_BASE_URL = "https://pramana.dev/entity/";
 
     private PramanaId() {
         // utility class
